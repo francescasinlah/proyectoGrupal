@@ -1,0 +1,59 @@
+@media screen and (min-width: 600px){
+
+
+
+*{
+    padding: 4px;
+    margin: 5px;    
+}
+
+.contenedor{
+    background-color: #5d3e3c;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-between;
+ 
+}
+.titulo{
+    color:aliceblue;
+    display: flex;
+    justify-content: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    
+}
+
+.caja1{
+    display: flex;
+    justify-content: space-around;
+    align-content: space-between;
+    color:aliceblue
+
+}
+
+.caja2{
+    display: flex;
+    justify-content: space-around;
+    align-content: space-between;
+   
+}
+
+.caja3{
+    display: flex;
+    justify-content: space-around;
+    align-content: space-between;
+   
+}
+.imagenes{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+  
+
+}
+
+.details{
+    color:aliceblue
+}
+}
