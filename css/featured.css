@@ -1,0 +1,29 @@
+@media screen and (max-width: 600px){
+
+body{
+    background-color:rgb(0, 255, 13);
+
+}
+
+hr {
+    background-color: rgb(0, 0, 0);
+    height: 1px;
+    width: 2px;
+
+
+}
+
+.linea{
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+
+/* PREGUNTAR JOSE PORQUE NO ME QUIERE AGARRAR ESTO JAJAJA*/
+
+.imagenes{
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    width: 1px;
+}
