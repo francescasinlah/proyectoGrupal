@@ -1,0 +1,365 @@
+
+  /*******************/
+ /*style for mobli*/
+/*******************/
+
+@media screen and (max-width: 600px){
+    .navegador ul li i{
+        display: none;
+        }
+
+    .caja2{
+        display: none;
+    }    
+
+ *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+} 
+
+p{
+    color: white;
+    font-size: 9px;
+    margin-right: 190px;
+}
+
+.encabesado {
+    padding: 5px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: black; 
+    }
+
+.encabesado img{
+    width: 35px;
+}
+    
+
+    .encabesado ul {
+    display: flex;
+    list-style: none; 
+    }
+
+    .navegador {
+    width:100%;
+    order: 1;
+        
+    }
+
+    .navegador nav ul{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .navegador ul li a{
+        color: white;
+        text-decoration: none;
+        font-size: 8px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .barra button{
+        border: none;
+        background-color: transparent;
+        color: white;
+    }
+
+    .barra .boton i{
+        font-size: 30px;
+        color: white;
+    }
+
+    .navegador.activo ul{ 
+        display:none;
+    }
+
+    .navegador ul li a:hover{
+        color: #434343;
+
+    }
+  /****************/
+ /*style for form*/
+/****************/
+
+    .formulario{
+        background-color: rgb(0, 0, 0);
+        border-radius: 5px;
+        margin: 30px 40px;
+        padding: 20px 20px;
+    }
+    .formulario .form label{
+        color: white;
+
+    }
+
+    .formulario .form .input2{
+        margin: 5px 0px;
+    }
+
+    .formulario .form .input3{
+        width: 245px;
+        height: 200px;
+        margin-bottom: 10px;
+    }
+
+    .formulario .form .label2{
+        margin-right: 8px;
+
+    }
+
+   /*  .formulario .form textarea{
+        margin-left: 5px;
+        margin-top: 5px;
+        margin-bottom: 20px;
+}
+ */
+    .formulario .form a{
+        margin: 0px 100px;
+        color: white;
+}
+
+    .contac{
+        margin: 10px 90px;
+        background-color: black;
+    }
+
+    .contac h1{
+        color: white;
+        margin-left: 18px;
+        font-size: 25px;
+        padding: 5px;
+    }
+
+    body{
+        background-color: rgba(124, 49, 49, 0.911);
+    }
+
+    .parte_inferior{
+        background-color: black;
+    }
+
+    .parte_inferior .enlaces{
+        display: flex;
+        justify-content:center;
+        padding: 0px 20px 100px 20px;
+        padding-top: 15px;
+        width: 380px;
+    }
+
+    .parte_inferior .enlaces div{
+        margin: 0px 20px;
+        
+    }
+
+    .parte_inferior .enlaces div a i{
+        color: white;
+    }
+}
+
+  /*******************/
+ /*style for desktop*/
+/*******************/
+
+@media screen and (min-width:600px){
+
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    } 
+
+    .barra .boton{
+        display: none;
+    }
+    
+    p{
+        color: white;
+        font-size: 20px;
+        margin-right: 750px;
+    }
+    
+    .encabesado {
+        padding: 5px 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        background-color: black; 
+        }
+    
+    .encabesado img{
+        width: 100px;
+    }
+        
+    
+        .encabesado ul {
+        display: flex;
+        list-style: none; 
+        }
+    
+        /* .navegador {
+        width:100%;
+        order: 1;
+            
+        } */
+    
+        .navegador nav ul{
+            
+            text-align: center;
+        }
+    
+        .navegador ul li a{
+            margin: 0px 20px;
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .navegador ul li i{
+            margin-right: 10px;
+            
+
+        }
+    
+        .barra button{
+            border: none;
+            background-color: transparent;
+            color: white;
+        }
+    
+        .barra .boton i{
+            font-size: 30px;
+            color: white;
+        }
+
+        .navegador ul li a:hover{
+            color: #434343;
+
+        }
+
+/*******************/
+/*style for desktop*/
+/*******************/
+
+.caja2 img{
+    float: left;     
+    width:700px ;
+    margin: 80px 40px 40px 40px;
+    border-radius: 15px;
+}
+
+
+.contac{
+    background-color: black;
+    width: 160px;
+    height: 40px;
+    float: left;
+    margin: 280px 60px 0px 20px;
+    border-radius: 15px;
+
+}
+
+        .parte.central{
+            float: left;
+
+
+        }
+
+        .formulario{
+            background-color: rgb(0, 0, 0); 
+            margin:80px 40px 0px 0px;
+            
+            border-radius: 15px;
+            width: 600px;
+            height: 470px;
+            float: left;
+            
+        }
+
+       
+        .form{
+            margin: 70px;
+        }
+        
+
+
+        .formulario .form label{
+            color: white;
+            font-size:19px;
+            font-family:arial;
+    
+        }
+
+        .formulario .form input{
+            width:250px;
+            height: 25px;
+        }
+    
+        .formulario .form .input2{
+            margin: 15px 0px;
+        }
+
+        .formulario .form .input3{
+            width: 460px;
+            height: 230px;
+            margin-bottom: 10px;
+        }
+    
+        .formulario .form .label2{
+            margin-right: 16px;
+    
+        }
+    
+        .formulario .form textarea{
+            margin-left: 5px;
+            margin-top: 5px;
+            margin-bottom: 20px;
+    }
+    
+        .formulario .form a{
+            margin: 0px 10px 10px 190px;
+            color: white;
+            font-size: 25px;
+    }
+    
+       
+    
+        .contac h1{
+            color: white;
+            margin-left: 10px;
+            font-size: 25px;
+            padding: 5px;
+        }
+    
+        body{
+            background-color: rgba(124, 49, 49, 0.911);
+        }
+    
+        .parte_inferior{
+            /* background-color: black; */
+        }
+    
+        .parte_inferior .enlaces{
+            display: flex;
+            justify-content:center;
+            padding: 0px 210px 100px 20px;
+            padding-top: 100px;
+            width: 380px;
+            font-size: 35px;
+        }
+    
+        .parte_inferior .enlaces div{
+            margin: 0px 20px;
+            
+        }
+    
+        .parte_inferior .enlaces div a i{
+            color: white;
+            margin:0px 30px;
+        }
+        
+    }        
