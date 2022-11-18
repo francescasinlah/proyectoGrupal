@@ -1,0 +1,210 @@
+@media screen and (min-width:600px){
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background:rgba(124, 49, 49, 0.911);
+}
+
+.contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    font-size:30px;
+    color:white;
+}
+
+.container p{
+    font-size:25px;
+}
+
+.linea{
+    margin: 40px;
+}
+
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    /* background-color: brown; */
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.card-container1 .header img{
+    width: 250px;
+    height: 300px;
+    margin:0px 10px ;
+}
+
+.card-container0 .header1 img{
+    width: 250px;
+    height: 300px;
+    margin:0px 10px ;
+}
+
+
+.card-container1{
+    display: flex;
+    padding:40px 30px 40px 10px;
+    height: auto;
+    background: white;
+    margin: 40px;
+}
+
+.card-container0{
+    display: flex;
+    padding:40px 60px 40px 10px;
+    height: auto;
+    background: white;
+
+}
+
+.container .slicer{
+    color:white;
+    width:50px;
+}
+
+.header1 .boton {
+    font-size:26px;
+    color:white;
+    border:solid black;
+    background:black;
+    margin:20px  10px;
+    padding:0px 20px;
+}
+
+.header .boton {
+    font-size:24px;
+    color:white;
+    border:solid black;
+    background:black;
+    margin:20px  10px;
+    padding:0px 0px 0px 5px;
+}
+}
+
+/************************/
+/* DISEÑO PARA mobil */
+/**********************/
+
+
+
+
+    @media screen and (max-width:600px) {
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .encabesado img{
+            width: 75px;
+        }
+        
+        body{
+            background:rgba(124, 49, 49, 0.911);
+        }
+        
+        .contenedor{
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 10px;
+            font-size:10px;
+            color:white;
+            width:50;
+            margin-left:150;
+        }
+        
+        .container p{
+            font-size:10px;
+            margin:10px 0px;
+        }
+        
+        .linea{
+            margin: 10px;
+            font-size: 10px;
+        }
+    
+        hr{
+            width:100;
+        }
+        
+        
+        
+        .container{
+            
+            align-items: center;
+            justify-content: center;
+            
+            /* background-color: brown; */
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+        
+        .card-container1 .header img{
+            width: 150px;
+            height: 100px;
+            margin:10px 30px ;
+        }
+        
+        .card-container0 .header1 img{
+            width: 150px;
+            height: 100px;
+            margin:10px 30px ;
+        }
+        
+        
+        .card-container1{
+            display: flex;
+            padding:0px 0px 0px 0px;
+            height: auto;
+            background: white;
+            margin: 10px;
+        }
+        
+        .card-container0{
+            display: flex;
+            padding:0px 0px 0px 0px;
+            height: auto;
+            background: white;
+            margin:10px;
+        
+        }
+        
+        .container .slicer{
+            color:white;
+            width:0px;
+        }
+        
+        .header1 .boton {
+            font-size:8px;
+            color:white;
+            border:solid black;
+            background:black;
+            margin:10px  30px;
+            padding:5px 35px;
+        }
+        
+        .header .boton {
+             font-size:7px;
+            color:white;
+            border:solid black;
+            background:black;
+            margin:12px  30px;
+            padding:5px 35px;
+        }
+    
+    
+    
+
+
+
+}
