@@ -34,7 +34,7 @@ p{
     }
 
 .encabesado img{
-    width: 35px;
+    width: 75px;
 }
     
 
@@ -191,7 +191,8 @@ p{
         }
     
     .encabesado img{
-        width: 100px;
+        width: 200px;
+        margin-right: 800px;
     }
         
     
@@ -339,9 +340,9 @@ p{
             background-color: rgba(124, 49, 49, 0.911);
         }
     
-        .parte_inferior{
-            /* background-color: black; */
-        }
+       /*  .parte_inferior{
+        background-color: black; 
+        } */
     
         .parte_inferior .enlaces{
             display: flex;

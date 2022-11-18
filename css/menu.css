@@ -31,7 +31,7 @@
     }
 
 .encabesado img{
-    width: 35px;
+    width: 75px;
 }
     
 
@@ -112,7 +112,8 @@
         }
     
     .encabesado img{
-        width: 100px;
+        width: 200px;
+        margin-right: 800px;
     }
         
     
