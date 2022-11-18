@@ -1,0 +1,49 @@
+
+.linea{
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+
+/* PREGUNTAR JOSE PORQUE NO ME QUIERE AGARRAR ESTO JAJAJA*/
+
+.contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    font-size:30px;
+}
+.linea{
+    margin: 40px;
+}
+
+.imagenes{
+    margin: 0px 0px 0px 7%;
+}
+
+
+@media screen and (max-width: 600px) {
+  
+.linea{
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+
+.contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    font-size:30px;
+}
+.linea{
+    margin: 40px;
+}
+
+.imagenes{
+    margin: 0px 0px 0px 7%;
+}
+    
+}
